@@ -1,0 +1,9 @@
+编程语言排行榜：TIOBE
+boss直聘网：www.zhipin.com
+常用正则表达式：https://www.jb51.net/tools/regexsc.htm
+学习文档的两个网站：https://www.w3cschool.cn/tutorial    菜鸟教程
+jquery中文文档：https://jquery.cuishifeng.cn/
+maven仓库网址：http://mvnrepository.com
+存在开源项目的网站：githup
+spring 官网：https://spring.io/
+linux联网问题：https://blog.csdn.net/CHASEWORLD/article/details/81257702

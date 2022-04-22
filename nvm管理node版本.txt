@@ -1,0 +1,6 @@
+首先：以管理员身份打开命令行窗口
+安装指定版本：nvm install 版本号
+使用指定版本：nvm use 版本号  ,然后node -v查看node版本，同理npm -v
+查看安装的所有node版本：nvm ls
+删除node版本：nvm uninstall 版本号
+若npm run dev 失败，则先使用npm rebuild node-sass命令，再npm run dev即可。

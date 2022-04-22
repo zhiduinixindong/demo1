@@ -1,0 +1,12 @@
+Alt + Shift + I	生成当前选中表的所有字段的Insert语句
+Alt + Shift + U	生成当前选中表的所有字段的Update语句
+Alt + Shift + D	生成当前选中表的所有字段的Delete语句
+Alt + Shift + S	生成当前选中表的所有字段的Select语句
+————————————————
+F12	整理格式，格式化当前行的SQL语句
+Ctrl+F12 | Shift+F12	格式化选中的SQL | 格式化所有的SQL
+Ctrl+Shift+C | Ctrl+Shift+R	【注释】选中SQL添加注释 | 选中SQL去除注释
+Ctrl+Enter	代码提示/补全
+F8 | F9	【执行当前行】执行当前行SQL | 执行当前行SQL，并且允许编辑查询结构
+Ctrl+F9 | Shift+F9	【执行】执行选中行SQL | 执行所有SQL
+————————————————

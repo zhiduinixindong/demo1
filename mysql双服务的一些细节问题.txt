@@ -1,0 +1,2 @@
+登录的命令行：mysql -uroot -p0022 -hlocalhost -P3306
+退出mysql终端：quit

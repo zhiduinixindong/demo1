@@ -1,0 +1,20 @@
+一：一些经常用到的常量，最好在单独的类里面定义，便于修改
+类似于原本是 request.getSession().getAtrribute("userName")
+修改为： request.getSession().getAtrribute("Constant.userName")
+在Constant类中定义如下：public final static String userName=userName;
+
+
+二：普通项目搭建步骤：
+   1.创建maven项目
+2.配置tomcat
+3.运行，测试项目是否能够跑起来
+4.导入jar包，引入maven依赖
+5.创建项目包结构
+6.创建实体类
+
+
+无论学哪门技术，官方文档必须精通！ ！ ！
+
+
+一个项目是由许多小模块小功能组成的，每完成一点点都需要进行单元测试，养成好习惯！
+    

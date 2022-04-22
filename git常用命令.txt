@@ -1,0 +1,4 @@
+1.  将github上的仓库里的源代码克隆到本地磁盘中：
+git clone git@github.com:zhiduinixindong/springcloud-config.git d:/springcloud-config
+其中： git@github.com:zhiduinixindong/springcloud-config.git 是源码的地址
+d:/springcloud-config是你要把源码克隆到本地磁盘的路径。

@@ -1,0 +1,76 @@
+1、（先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库
+git init
+
+2、把文件添加到版本库中，使用命令 git add .添加到暂存区里面去，不要忘记后面的小数点“.”，意为添加文件夹下的所有文件
+git add .
+
+3、用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
+git commit -m 'first commit'
+
+4、关联到远程库
+git remote add 远程仓库的别名 你的远程库地址
+
+5、获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
+git pull --rebase origin master
+
+6、把本地库的内容推送到远程，git push 别名 master
+
+
+额外知识：删除远程仓库中的文件
+1.将远程仓库的项目克隆到本地：git clone 远程仓库地址   需要克隆到的位置 ，然后在目录下打开终端，ll -a 查看所有文件
+
+2. 删除目录下所有文件：git rm * -r，删除单一文件：rm 文件名
+
+3.查看git本地库的状态：git status
+
+4.git commit -m 描述
+
+5.git remote add 别名 远程仓库地址
+
+6.git pull --rebase 别名 master
+
+7.git push 别名 master
+
+
+额外知识：及时更新远程仓库
+首先，在目录处打开git终端
+
+1.git add .
+
+2. git commit -m 描述
+
+3.git remote add 别名 远程仓库地址
+
+4.git push 别名 master
+
+额外知识：任意切换本地库的项目的各个版本
+1.查看各个版本的历史记录：git reflog
+2.在各个版本之间穿梭：git reset --hard 版本号
+
+额外知识：查看签名信息（email，name）：cat ~/.gitconfig，签名只是用来确认本次提交是谁做的，跟gitee等代码托管中心的账号没有任何关系。
+
+额外知识：分支的操作：
+git branch  分支名 ，                创建分支，会把master分支的内容复制一份
+git branch  -v，                        查看分支
+git checkout 分支名 ，              切换分支
+git merge 分支名 ，                   把指定的分支合并到当前分支上
+
+额外知识：远程仓库操作
+
+额外信息：github团队协作：
+命令名称            		作用
+git remote -v 		查看当前所有远程地址别名
+git remote add 别名 远程地址 	起别名
+git push 别名 分支 		推送本地分支上的内容到远程仓库
+git clone 远程地址   克隆到的目标位置（例如不存在的目录：d:/demo1） 			将远程仓库的内容克隆到本地
+git pull   远程库地址别名 远程分支名 将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
+
+
+额外知识：通过idea 将项目提交到远程仓库
+1.vcs创建本地仓库
+2.add
+3.设置remotes，git-》repository-》remotes，别名+远程仓库url
+4.点击commit and push，push成功。
+
+
+

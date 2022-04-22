@@ -1,0 +1,7 @@
+1.美化页面，布局，排版（可以自动生成代码，简直是神器）
+     bootstrap可视化布局系统：https://www.bootcss.com/p/layoutit/
+
+2.js,html,css再理解，css最难，着重理解
+
+
+3.vue学习

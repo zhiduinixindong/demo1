@@ -1,0 +1,29 @@
+查看源码：ctrl+shift+t
+返回前一个编辑的页面：alt+左箭头
+查看继承关系：f4
+格式化代码：ctrl+G
+提示方法参数类型：ctrl+alt+/
+反撤销：ctrl+y
+ctrl+alt+t：进行try -catch捕获
+选中数行，整体往后移动：tab
+选中数行，整体往前移动：shift+tab
+查看类的结构：ctrl+o  （能很方便的查看类的属性，方法，构造器）
+重构，修改变量名与方法名：alt+shift+r
+大小写切换：ctrl+shift+y
+生成构造器/get/set/toString：alt+shift+s
+查看类的继承结构图：ctrl+shift+u
+windows+R：打开命令行界面
+windows+E：打开电脑文件夹
+alt+f4：关闭当前窗口
+cls：清楚cmd命令窗口的所有内容
+exit：退出
+ipconfig（以管理员身份运行）：查看本机ip地址
+mspaint:打开画图工具
+notepad:打开记事本
+calc:打开计算机
+
+idea 断点调试技巧：在循环体的断点处右键鼠标，设置条件，为boolean类型，例如一个for循环，设置i==60时，停止在此处；
+在断点所在行，ctrl+u，可以查询变量的值，例如查询map里的值
+
+
+
